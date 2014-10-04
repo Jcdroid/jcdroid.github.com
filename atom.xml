@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jcdroid-CJ的移动开发记录]]></title>
+  <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid-CJ.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid-CJ.github.io/"/>
-  <updated>2014-10-04T18:55:19+08:00</updated>
+  <updated>2014-10-04T19:04:29+08:00</updated>
   <id>http://Jcdroid-CJ.github.io/</id>
   <author>
-    <name><![CDATA[Jcdroid-CJ]]></name>
+    <name><![CDATA[Jcdroid]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
