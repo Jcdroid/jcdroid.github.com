@@ -7,13 +7,13 @@ sharing: false
 footer: false
 ---
 * 热爱移动互联网，喜欢学习新技术
-* 爱折腾，
+* 喜欢 音乐·文学·历史·哲学·武侠 的伪文艺青年
 
 
 
 Contact Me
 ============
-* Email: 438339197@qq.com
+* Email:<438339197@qq.com>
 * Sina-Weibo: [Jcdroid](http://weibo.com/caojing0819)
 
 
