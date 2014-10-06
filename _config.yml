@@ -96,5 +96,5 @@ google_analytics_tracking_id:
 facebook_like: false
 
 # Sina Weibo
-weibo_user: Jcdroid # 微博数字 ID 或域名 ID
+weibo_user: caojing0819 # 微博数字 ID 或域名 ID
 weibo_share: true # 是否开启微博分享按钮
