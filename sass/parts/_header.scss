@@ -323,8 +323,8 @@ $header-height: 30px;
 			&.weibo{
   				background: image-url('social/weibo.png') center no-repeat #e32529;
   				border: 1px solid #e32529;
- 			 &:hover{
-     			 border: 1px solid darken(#e32529, 10%);
+ 			 	&:hover{
+     			 	border: 1px solid darken(#e32529, 10%);
  				 }
 			}
 			&.email{
