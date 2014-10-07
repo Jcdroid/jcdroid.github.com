@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid-CJ.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid-CJ.github.io/"/>
-  <updated>2014-10-07T23:31:08+08:00</updated>
+  <updated>2014-10-07T23:39:16+08:00</updated>
   <id>http://Jcdroid-CJ.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -18,7 +18,17 @@
     <link href="http://Jcdroid-CJ.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi/"/>
     <updated>2014-10-07T23:13:59+08:00</updated>
     <id>http://Jcdroid-CJ.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi</id>
-    <content type="html"><![CDATA[<h2>主题：</h2>
+    <content type="html"><![CDATA[<h3>目录</h3>
+
+<ul>
+<li>主题</li>
+<li>评论</li>
+<li>分享</li>
+<li>字体</li>
+</ul>
+
+
+<h3>主题</h3>
 
 <ul>
 <li><a href="https://github.com/shashankmehta/greyshade">https://github.com/shashankmehta/greyshade</a></li>
@@ -26,7 +36,7 @@
 </ul>
 
 
-<h2>评论：</h2>
+<h3>评论</h3>
 
 <ul>
 <li><a href="http://duoshuo.com/">http://duoshuo.com/</a></li>
@@ -34,9 +44,14 @@
 </ul>
 
 
-<h2>分享：</h2>
+<h3>分享</h3>
 
-<h2>字体：</h2>
+<ul>
+<li><a href="http://www.jiathis.com/">http://www.jiathis.com/</a></li>
+</ul>
+
+
+<h3>字体</h3>
 ]]></content>
   </entry>
   
