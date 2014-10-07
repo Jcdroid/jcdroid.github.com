@@ -3,6 +3,7 @@ layout: post
 title: "Octopress Blog自定义样式"
 date: 2014-10-07 23:13:59 +0800
 comments: true
+published: false
 categories: 
 ---
 主题：
@@ -19,9 +20,7 @@ categories:
 
 分享：
 ---
-  [google]: http://google.com/        "Google"
-  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
-  [msn]:    http://search.msn.com/    "MSN Search"
+
 
 
 字体：
