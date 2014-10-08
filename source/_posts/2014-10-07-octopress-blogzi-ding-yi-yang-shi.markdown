@@ -33,6 +33,5 @@ categories:
 * [Google Webfonts](http://google.com/webfonts)
 
 ####参考####
-* [象写程序一样写博客：搭建基于github的博客](http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/)
 * [你好！github页面](http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/)
 
