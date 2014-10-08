@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-08T22:28:43+08:00</updated>
+  <updated>2014-10-08T23:03:54+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -18,7 +18,7 @@
     <link href="http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows/"/>
     <updated>2014-10-08T13:02:27+08:00</updated>
     <id>http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows</id>
-    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建Octopress，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待<code>5-10分钟</code>，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查<code>deploy</code>的步骤。</p>
+    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建<code>Octopress</code>，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待5-10分钟，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查deploy的步骤。</p>
 ]]></content>
   </entry>
   
@@ -27,7 +27,7 @@
     <link href="http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-mac/"/>
     <updated>2014-10-08T12:16:16+08:00</updated>
     <id>http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-mac</id>
-    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建Octopress，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待<code>5-10分钟</code>，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查<code>deploy</code>的步骤。</p>
+    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建<code>Octopress</code>，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待5-10分钟，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查deploy的步骤。</p>
 
 <h3>目录</h3>
 
@@ -58,6 +58,7 @@
 <li>评论</li>
 <li>分享</li>
 <li>字体</li>
+<li>添加Tag</li>
 <li>参考</li>
 </ul>
 
@@ -89,6 +90,13 @@
 
 <ul>
 <li><a href="http://google.com/webfonts">Google Webfonts</a></li>
+</ul>
+
+
+<h4>添加Tag</h4>
+
+<ul>
+<li></li>
 </ul>
 
 

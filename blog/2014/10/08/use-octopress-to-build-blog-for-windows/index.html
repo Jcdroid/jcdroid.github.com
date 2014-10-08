@@ -26,7 +26,15 @@
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
+	function addBlankTargetForLinks () {
+  $(&#8216;a[href^=&#8221;http&#8221;]&#8217;).each(function(){
+      $(this).attr(&#8216;target&#8217;, &#8216;_blank&#8217;);
+  });
+}
+
+$(document).bind(&#8216;DOMNodeInserted&#8217;, function(event) {
+  addBlankTargetForLinks();
+});
   
 
 </head>
@@ -99,7 +107,7 @@
 			<div class="mid-col-container">
 				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<h1 class="title" itemprop="name">使用Octopress在Github Pages搭建Blog（Windows版）</h1>
-	<div class="entry-content" itemprop="articleBody"><p>Note：如果你是第一次搭建Octopress，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待<code>5-10分钟</code>，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查<code>deploy</code>的步骤。</p>
+	<div class="entry-content" itemprop="articleBody"><p>Note：如果你是第一次搭建<code>Octopress</code>，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待5-10分钟，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查deploy的步骤。</p>
 </div>
 
 </article>

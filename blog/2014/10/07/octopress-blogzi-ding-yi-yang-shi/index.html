@@ -13,9 +13,10 @@
 评论
 分享
 字体
+添加Tag
 参考 主题 Greyshade
 Slash 评论 多说
-友言 分享 JiaThis分享 字体 Google Webfonts 参考 你好！github页面 评论 ">
+友言 分享 JiaThis分享 字体 Google Webfonts 添加Tag 参考 你好！github页面 评论 ">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,7 +33,15 @@ Slash 评论 多说
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
+	function addBlankTargetForLinks () {
+  $(&#8216;a[href^=&#8221;http&#8221;]&#8217;).each(function(){
+      $(this).attr(&#8216;target&#8217;, &#8216;_blank&#8217;);
+  });
+}
+
+$(document).bind(&#8216;DOMNodeInserted&#8217;, function(event) {
+  addBlankTargetForLinks();
+});
   
 
 </head>
@@ -112,6 +121,7 @@ Slash 评论 多说
 <li>评论</li>
 <li>分享</li>
 <li>字体</li>
+<li>添加Tag</li>
 <li>参考</li>
 </ul>
 
@@ -143,6 +153,13 @@ Slash 评论 多说
 
 <ul>
 <li><a href="http://google.com/webfonts">Google Webfonts</a></li>
+</ul>
+
+
+<h4>添加Tag</h4>
+
+<ul>
+<li></li>
 </ul>
 
 
