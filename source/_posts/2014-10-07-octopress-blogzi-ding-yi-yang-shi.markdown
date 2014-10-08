@@ -13,20 +13,26 @@ categories:
 * 评论
 * 分享
 * 字体
+* 参考
 
-###主题###
-* https://github.com/shashankmehta/greyshade
-* https://github.com/tommy351/Octopress-Theme-Slash
-
-
-###评论###
-* http://duoshuo.com/
-* http://duoshuo.com/create-site/
+#####主题#####
+* [Greyshade](https://github.com/shashankmehta/greyshade)
+* [Slash](https://github.com/tommy351/Octopress-Theme-Slash)
 
 
-###分享###
-* http://www.jiathis.com/
+####评论####
+* [多说](http://duoshuo.com/create-site/)
+* [友言](http://www.uyan.cc/)
 
 
-###字体###
+####分享####
+* [JiaThis分享](http://www.jiathis.com/)
+
+
+####字体####
+* 
+
+####参考####
+* [象写程序一样写博客：搭建基于github的博客](http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/)
+* [你好！github页面](http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/)
 
