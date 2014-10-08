@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-08T23:27:18+08:00</updated>
+  <updated>2014-10-08T23:48:36+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Tips]]></title>
+    <link href="http://Jcdroid.github.io/blog/2014/10/08/octopress-tips/"/>
+    <updated>2014-10-08T23:30:28+08:00</updated>
+    <id>http://Jcdroid.github.io/blog/2014/10/08/octopress-tips</id>
+    <content type="html"><![CDATA[<h3>目录</h3>
+
+<ul>
+<li>新窗口中打开超链接</li>
+<li>添加Tag</li>
+</ul>
+
+
+<h4>新窗口中打开超链接</h4>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="kd">function</span> <span class="nx">addBlankTargetForLinks</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;a[href^=&quot;http&quot;]&#39;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="s1">&#39;_blank&#39;</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">});</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;DOMNodeInserted&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">addBlankTargetForLinks</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>添加Tag</h4>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用Octopress在Github Pages搭建Blog（Windows版）]]></title>
@@ -58,7 +102,6 @@
 <li>评论</li>
 <li>分享</li>
 <li>字体</li>
-<li>添加Tag</li>
 <li>参考</li>
 </ul>
 
@@ -90,13 +133,6 @@
 
 <ul>
 <li><a href="http://google.com/webfonts">Google Webfonts</a></li>
-</ul>
-
-
-<h4>添加Tag</h4>
-
-<ul>
-<li></li>
 </ul>
 
 

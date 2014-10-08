@@ -27,15 +27,15 @@
 	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript">
-function addBlankTargetForLinks () {
-  $('a[href^="http"]').each(function(){
-		$(this).attr('target', '_blank');
-	});
-}
+	function addBlankTargetForLinks () {
+  		$('a[href^="http"]').each(function(){
+			$(this).attr('target', '_blank');
+		});
+	}
  
-$(document).bind('DOMNodeInserted', function(event) {
-	addBlankTargetForLinks();
-});
+	$(document).bind('DOMNodeInserted', function(event) {
+		addBlankTargetForLinks();
+	});
 </script>
   
 

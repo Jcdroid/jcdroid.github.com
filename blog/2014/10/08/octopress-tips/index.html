@@ -5,17 +5,23 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Octopress Blog自定义样式 - Jcdroid</title>
+	<title>Octopress Tips - Jcdroid</title>
 	<meta name="author" content="Jcdroid">
 
 	
-	<meta name="description" content=" Octopress Blog自定义样式 目录 主题
-评论
-分享
-字体
-参考 主题 Greyshade
-Slash 评论 多说
-友言 分享 JiaThis分享 字体 Google Webfonts 参考 你好！github页面 评论 ">
+	<meta name="description" content="Octopress Tips 目录 新窗口中打开超链接
+添加Tag 新窗口中打开超链接 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;script type=&quot;text/javascript&quot;&gt; function addBlankTargetForLinks &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -25,7 +31,7 @@ Slash 评论 多说
 
 	<link href="/atom.xml" rel="alternate" title="Jcdroid" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://Jcdroid.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi/">
+	<link rel="canonical" href="http://Jcdroid.github.io/blog/2014/10/08/octopress-tips/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -114,54 +120,43 @@ Slash 评论 多说
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<h1 class="title" itemprop="name">Octopress Blog自定义样式</h1>
+	<h1 class="title" itemprop="name">Octopress Tips</h1>
 	<div class="entry-content" itemprop="articleBody"><h3>目录</h3>
 
 <ul>
-<li>主题</li>
-<li>评论</li>
-<li>分享</li>
-<li>字体</li>
-<li>参考</li>
+<li>新窗口中打开超链接</li>
+<li>添加Tag</li>
 </ul>
 
 
-<h4>主题</h4>
+<h4>新窗口中打开超链接</h4>
 
-<ul>
-<li><a href="https://github.com/shashankmehta/greyshade">Greyshade</a></li>
-<li><a href="https://github.com/tommy351/Octopress-Theme-Slash">Slash</a></li>
-</ul>
-
-
-<h4>评论</h4>
-
-<ul>
-<li><a href="http://duoshuo.com/create-site/">多说</a></li>
-<li><a href="http://www.uyan.cc/">友言</a></li>
-</ul>
-
-
-<h4>分享</h4>
-
-<ul>
-<li><a href="http://www.jiathis.com/">JiaThis分享</a></li>
-</ul>
-
-
-<h4>字体</h4>
-
-<ul>
-<li><a href="http://google.com/webfonts">Google Webfonts</a></li>
-</ul>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="kd">function</span> <span class="nx">addBlankTargetForLinks</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;a[href^=&quot;http&quot;]&#39;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="s1">&#39;_blank&#39;</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">});</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;DOMNodeInserted&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">addBlankTargetForLinks</span><span class="p">();</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-<h4>参考</h4>
-
-<ul>
-<li><a href="http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/">你好！github页面</a></li>
-</ul>
-
+<h4>添加Tag</h4>
 </div>
 
 </article>
@@ -196,7 +191,7 @@ Slash 评论 多说
 <section>
     <h1>评论</h1>
     <div id="comments" aria-live="polite"><!-- Duoshuo Comment BEGIN -->
-<div class="ds-thread" data-title="Octopress Blog自定义样式"></div>
+<div class="ds-thread" data-title="Octopress Tips"></div>
 <script type="text/javascript">
   var duoshuoQuery = {short_name:"Jcdroid"};
   (function() {
