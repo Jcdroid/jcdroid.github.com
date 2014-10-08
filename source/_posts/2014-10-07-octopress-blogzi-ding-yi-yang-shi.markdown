@@ -15,7 +15,7 @@ categories:
 * 字体
 * 参考
 
-####主题####s
+####主题####
 * [Greyshade](https://github.com/shashankmehta/greyshade)
 * [Slash](https://github.com/tommy351/Octopress-Theme-Slash)
 
@@ -30,7 +30,7 @@ categories:
 
 
 ####字体####
-* 
+* [Google Webfonts](http://google.com/webfonts)
 
 ####参考####
 * [象写程序一样写博客：搭建基于github的博客](http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/)
