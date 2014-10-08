@@ -10,6 +10,8 @@ categories:
 * 添加Tag
 
 ####新窗口中打开超链接
+修改`_include\custom\head.html`如下即可
+
 ```js
 <script type="text/javascript">
 	function addBlankTargetForLinks () {
@@ -23,5 +25,7 @@ categories:
 	});
 </script>
 ```
+
+参考：`https://gist.github.com/azone/4523641`
 
 ####添加Tag
