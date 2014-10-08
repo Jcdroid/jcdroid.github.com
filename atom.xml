@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-09T00:00:21+08:00</updated>
+  <updated>2014-10-09T00:09:27+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -62,15 +62,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[使用Octopress在Github Pages搭建Blog（Windows版）]]></title>
-    <link href="http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows/"/>
-    <updated>2014-10-08T13:02:27+08:00</updated>
-    <id>http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows</id>
-    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建<code>Octopress</code>，请注意，在执行<code>rake deploy</code>后，访问<code>username.github.io</code>会有延迟，请耐心等待5-10分钟，如果10分钟后还没有同步，或者页面是<code>404</code>，再检查deploy的步骤。</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[使用Octopress在Github Pages搭建Blog（Mac版）]]></title>
     <link href="http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-mac/"/>
     <updated>2014-10-08T12:16:16+08:00</updated>
@@ -80,11 +71,11 @@
 <h3>目录</h3>
 
 <ul>
-<li>参考</li>
+<li><a href="#1">参考</a></li>
 </ul>
 
 
-<h4>参考</h4>
+<h4><a id="1"></a>参考</h4>
 
 <ul>
 <li><a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">象写程序一样写博客：搭建基于github的博客</a></li>
@@ -102,15 +93,15 @@
     <content type="html"><![CDATA[<h3>目录</h3>
 
 <ul>
-<li>主题</li>
-<li>评论</li>
-<li>分享</li>
-<li>字体</li>
-<li>参考</li>
+<li><a href="#1">主题</a></li>
+<li><a href="#2">评论</a></li>
+<li><a href="#3">分享</a></li>
+<li><a href="#4">字体</a></li>
+<li><a href="#5">参考</a></li>
 </ul>
 
 
-<h4>主题</h4>
+<h4><a id="1"></a>主题</h4>
 
 <ul>
 <li><a href="https://github.com/shashankmehta/greyshade">Greyshade</a></li>
@@ -118,7 +109,7 @@
 </ul>
 
 
-<h4>评论</h4>
+<h4><a id="2"></a>评论</h4>
 
 <ul>
 <li><a href="http://duoshuo.com/create-site/">多说</a></li>
@@ -126,21 +117,21 @@
 </ul>
 
 
-<h4>分享</h4>
+<h4><a id="3"></a>分享</h4>
 
 <ul>
 <li><a href="http://www.jiathis.com/">JiaThis分享</a></li>
 </ul>
 
 
-<h4>字体</h4>
+<h4><a id="4"></a>字体</h4>
 
 <ul>
 <li><a href="http://google.com/webfonts">Google Webfonts</a></li>
 </ul>
 
 
-<h4>参考</h4>
+<h4><a id="5"></a>参考</h4>
 
 <ul>
 <li><a href="http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/">你好！github页面</a></li>
@@ -156,7 +147,7 @@
     <id>http://Jcdroid.github.io/blog/2014/10/04/hello-world</id>
     <content type="html"><![CDATA[<p>经常在网上看到一些在Github Pages上搭建的Blog，其中有很多Blog非常的高大上，令人跃跃欲试，比如：<a href="http://imid.me/">imid</a>、<a href="http://onevcat.com/">onevcat</a> 等等。其实在今年5月份就准备搭建，但由于公司项目的缘故，一直拖到现在。趁着这国庆放假，就花一些时间把它弄好了。</p>
 
-<h3>搭建步骤参见</h3>
+<h3>搭建步骤请参考</h3>
 
 <ul>
 <li><a href="http://jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows">使用Octopress在Github Pages搭建Blog（Windows版）</a></li>
