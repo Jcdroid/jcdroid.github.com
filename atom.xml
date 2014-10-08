@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-08T11:57:39+08:00</updated>
+  <updated>2014-10-08T13:04:47+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用Octopress在Github Pages搭建Blog（windows版）]]></title>
+    <link href="http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog(for%20windows)/"/>
+    <updated>2014-10-08T13:02:27+08:00</updated>
+    <id>http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog(for windows)</id>
+    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建Octopress，请注意，在执行rake deploy后，访问username.github.io会有延迟，请耐心等待5-10分钟，如果10分钟后还没有同步，或者页面是404，再检查deploy的步骤。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用Octopress在Github Pages搭建Blog（Mac版）]]></title>
+    <link href="http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog(for%20mac)/"/>
+    <updated>2014-10-08T12:16:16+08:00</updated>
+    <id>http://Jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog(for mac)</id>
+    <content type="html"><![CDATA[<p>Note：如果你是第一次搭建Octopress，请注意，在执行rake deploy后，访问username.github.io会有延迟，请耐心等待5-10分钟，如果10分钟后还没有同步，或者页面是404，再检查deploy的步骤。</p>
+
+<h3>目录</h3>
+
+<ul>
+<li>参考</li>
+</ul>
+
+
+<h4>参考</h4>
+
+<ul>
+<li><a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">象写程序一样写博客：搭建基于github的博客</a></li>
+<li><a href="http://stormzhang.github.io/other/2012/11/21/use-octopress-to-write-blog/">搭建Octopress</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Blog自定义样式]]></title>
@@ -62,7 +95,6 @@
 <h4>参考</h4>
 
 <ul>
-<li><a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">象写程序一样写博客：搭建基于github的博客</a></li>
 <li><a href="http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/">你好！github页面</a></li>
 </ul>
 
