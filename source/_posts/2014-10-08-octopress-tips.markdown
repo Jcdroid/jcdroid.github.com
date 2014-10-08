@@ -4,7 +4,6 @@ title: "Octopress Tips"
 date: 2014-10-08 23:30:28 +0800
 comments: true
 published: true
-tag: ios
 categories: 
 ---
 ###目录
