@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Jcdroid]]></title>
-  <link href="http://Jcdroid-CJ.github.io/atom.xml" rel="self"/>
-  <link href="http://Jcdroid-CJ.github.io/"/>
-  <updated>2014-10-08T10:30:44+08:00</updated>
-  <id>http://Jcdroid-CJ.github.io/</id>
+  <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
+  <link href="http://Jcdroid.github.io/"/>
+  <updated>2014-10-08T11:57:39+08:00</updated>
+  <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
     <email><![CDATA[438339197@qq.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress Blog自定义样式]]></title>
-    <link href="http://Jcdroid-CJ.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi/"/>
+    <link href="http://Jcdroid.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi/"/>
     <updated>2014-10-07T23:13:59+08:00</updated>
-    <id>http://Jcdroid-CJ.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi</id>
+    <id>http://Jcdroid.github.io/blog/2014/10/07/octopress-blogzi-ding-yi-yang-shi</id>
     <content type="html"><![CDATA[<h3>目录</h3>
 
 <ul>
@@ -29,7 +29,7 @@
 </ul>
 
 
-<h5>主题</h5>
+<h4>主题</h4>
 
 <ul>
 <li><a href="https://github.com/shashankmehta/greyshade">Greyshade</a></li>
@@ -55,7 +55,7 @@
 <h4>字体</h4>
 
 <ul>
-<li></li>
+<li><a href="http://google.com/webfonts">Google Webfonts</a></li>
 </ul>
 
 
@@ -71,9 +71,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://Jcdroid-CJ.github.io/blog/2014/10/04/hello-world/"/>
+    <link href="http://Jcdroid.github.io/blog/2014/10/04/hello-world/"/>
     <updated>2014-10-04T18:12:55+08:00</updated>
-    <id>http://Jcdroid-CJ.github.io/blog/2014/10/04/hello-world</id>
+    <id>http://Jcdroid.github.io/blog/2014/10/04/hello-world</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

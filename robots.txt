@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://Jcdroid-CJ.github.io/sitemap.xml 
+Sitemap: http://Jcdroid.github.io/sitemap.xml 
