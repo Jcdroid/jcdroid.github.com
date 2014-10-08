@@ -12,7 +12,6 @@ categories:
 * 评论
 * 分享
 * 字体
-* 添加Tag
 * 参考
 
 ####主题####
@@ -28,9 +27,6 @@ categories:
 
 ####字体####
 * [Google Webfonts](http://google.com/webfonts)
-
-####添加Tag####
-* 
 
 ####参考####
 * [你好！github页面](http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/)
