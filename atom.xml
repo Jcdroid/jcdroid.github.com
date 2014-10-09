@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-09T15:02:25+08:00</updated>
+  <updated>2014-10-09T15:18:48+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -21,12 +21,16 @@
     <content type="html"><![CDATA[<h3>目录</h3>
 
 <ul>
-<li><a href="#1">新窗口中打开超链接</a></li>
-<li><a href="#2">添加Tag</a></li>
+<li><a href="#%E6%96%B0%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%89%93%E5%BC%80%E8%B6%85%E9%93%BE%E6%8E%A5">新窗口中打开超链接</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0Tag">添加Tag</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E7%BB%A7%E7%BB%AD%E9%98%85%E8%AF%BB">添加继续阅读</a></li>
 </ul>
 
 
-<h4><a id="1"></a>新窗口中打开超链接</h4>
+<!--more-->
+
+
+<h4><a id="新窗口中打开超链接"></a>新窗口中打开超链接</h4>
 
 <p>修改<code>_include\custom\head.html</code>如下即可</p>
 
@@ -57,7 +61,9 @@
 
 <p>参考：<code>https://gist.github.com/azone/4523641</code></p>
 
-<h4><a id="2"></a>添加Tag</h4>
+<h4><a id="添加Tag"></a>添加Tag</h4>
+
+<h4><a id="继续阅读"></a>添加继续阅读</h4>
 ]]></content>
   </entry>
   
@@ -143,7 +149,7 @@
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
     <link href="http://Jcdroid.github.io/blog/2014/10/04/hello-world/"/>
-    <updated>2014-10-04T18:12:00+08:00</updated>
+    <updated>2014-10-04T18:12:55+08:00</updated>
     <id>http://Jcdroid.github.io/blog/2014/10/04/hello-world</id>
     <content type="html"><![CDATA[<p>&nbsp;</p>
 

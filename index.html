@@ -10,18 +10,8 @@
 
 	
 	<meta name="description" content="Octopress Tips 目录 新窗口中打开超链接
-添加Tag 新窗口中打开超链接 修改_include\custom\head.html如下即可 1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-&lt;script type=&quot;text/javascript&quot;&gt; &hellip;">
+添加Tag
+添加继续阅读 Read on &rarr; 使用Octopress在Github Pages搭建Blog（Mac版） Note：如果你是第一次搭建Octopress，请注意，在执行rake deploy后，访问username. &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -148,46 +138,15 @@
 		<h3>目录</h3>
 
 <ul>
-<li><a href="#1">新窗口中打开超链接</a></li>
-<li><a href="#2">添加Tag</a></li>
+<li><a href="#%E6%96%B0%E7%AA%97%E5%8F%A3%E4%B8%AD%E6%89%93%E5%BC%80%E8%B6%85%E9%93%BE%E6%8E%A5">新窗口中打开超链接</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0Tag">添加Tag</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E7%BB%A7%E7%BB%AD%E9%98%85%E8%AF%BB">添加继续阅读</a></li>
 </ul>
 
 
-<h4><a id="1"></a>新窗口中打开超链接</h4>
-
-<p>修改<code>_include\custom\head.html</code>如下即可</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="kd">function</span> <span class="nx">addBlankTargetForLinks</span> <span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;a[href^=&quot;http&quot;]&#39;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="s1">&#39;_blank&#39;</span><span class="p">);</span>
-</span><span class='line'>      <span class="p">});</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;DOMNodeInserted&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">addBlankTargetForLinks</span><span class="p">();</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>参考：<code>https://gist.github.com/azone/4523641</code></p>
-
-<h4><a id="2"></a>添加Tag</h4>
 
 		
-		
+		<a href="/blog/2014/10/08/octopress-tips/" class="more-link">Read on &rarr;</a>
 	</div>
 
 </article>
@@ -330,7 +289,7 @@
   
 
 
-<time datetime="2014-10-04T18:12:00+08:00" data-updated="true" itemprop="datePublished"></time></div>
+<time datetime="2014-10-04T18:12:55+08:00" data-updated="true" itemprop="datePublished"></time></div>
 		<div class="tags">
 
 
