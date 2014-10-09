@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 杂谈 | Jcdroid]]></title>
+  <link href="http://Jcdroid.github.io/blog/categories/za-tan/atom.xml" rel="self"/>
+  <link href="http://Jcdroid.github.io/"/>
+  <updated>2014-10-09T14:20:04+08:00</updated>
+  <id>http://Jcdroid.github.io/</id>
+  <author>
+    <name><![CDATA[Jcdroid]]></name>
+    <email><![CDATA[438339197@qq.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://Jcdroid.github.io/blog/2014/10/04/hello-world/"/>
+    <updated>2014-10-04T18:12:55+08:00</updated>
+    <id>http://Jcdroid.github.io/blog/2014/10/04/hello-world</id>
+    <content type="html"><![CDATA[<p>经常在网上看到一些在<code>Github Pages</code>上搭建的Blog，其中有很多Blog非常的高大上，令人跃跃欲试，比如：<a href="http://imid.me/">imid</a>、<a href="http://onevcat.com/">onevcat</a> 等等。其实在今年5月份就准备搭建，但由于公司项目的缘故，一直拖到现在。趁着这国庆放假，就花一些时间把它弄好了。</p>
+
+<h3>搭建步骤请参考</h3>
+
+<ul>
+<li><a href="http://jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows">使用Octopress在Github Pages搭建Blog（Windows版）</a></li>
+<li><a href="http://jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-mac">使用Octopress在Github Pages搭建Blog（Mac版）</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
