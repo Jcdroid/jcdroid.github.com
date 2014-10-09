@@ -1,10 +1,10 @@
 /*
-Syntax error: Undefined variable: "$font".
-        on line 9 of /Users/Jcdroid/octopress/sass/_greyshade.scss
+Syntax error: Undefined variable: "$color-sidebar".
+        on line 10 of /Users/Jcdroid/octopress/sass/_greyshade.scss
         from line 12 of /Users/Jcdroid/octopress/sass/screen.scss
 
 Backtrace:
-/Users/Jcdroid/octopress/sass/_greyshade.scss:9
+/Users/Jcdroid/octopress/sass/_greyshade.scss:10
 /Users/Jcdroid/octopress/sass/screen.scss:12
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/script/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/script/node.rb:40:in `perform'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$font\".\A         on line 9 of /Users/Jcdroid/octopress/sass/_greyshade.scss\A         from line 12 of /Users/Jcdroid/octopress/sass/screen.scss"; }
+  content: "Syntax error: Undefined variable: \"$color-sidebar\".\A         on line 10 of /Users/Jcdroid/octopress/sass/_greyshade.scss\A         from line 12 of /Users/Jcdroid/octopress/sass/screen.scss"; }
