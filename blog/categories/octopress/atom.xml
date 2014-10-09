@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jcdroid]]></title>
-  <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: octopress | Jcdroid]]></title>
+  <link href="http://Jcdroid.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
   <updated>2014-10-09T15:24:42+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
@@ -36,30 +36,22 @@
 
 <p>修改<code>_include\custom\head.html</code>如下即可</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="kd">function</span> <span class="nx">addBlankTargetForLinks</span> <span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;a[href^=&quot;http&quot;]&#39;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
-</span><span class='line'>          <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="s1">&#39;_blank&#39;</span><span class="p">);</span>
-</span><span class='line'>      <span class="p">});</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;DOMNodeInserted&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">addBlankTargetForLinks</span><span class="p">();</span>
-</span><span class='line'>  <span class="p">});</span>
-</span><span class='line'><span class="o">&lt;</span><span class="err">/script&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
+<p>&#8220;`js</p>
 
+<script type="text/javascript">
+    function addBlankTargetForLinks () {
+        $('a[href^="http"]').each(function(){
+            $(this).attr('target', '_blank');
+        });
+    }
+ 
+    $(document).bind('DOMNodeInserted', function(event) {
+        addBlankTargetForLinks();
+    });
+</script>
+
+
+<p>&#8220;`</p>
 
 <p>参考：<code>https://gist.github.com/azone/4523641</code></p>
 
@@ -163,28 +155,6 @@
 
 <ul>
 <li><a href="http://beyondvincent.com/blog/2013/07/27/107-hello-page-of-github/">你好！github页面</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://Jcdroid.github.io/blog/2014/10/04/hello-world/"/>
-    <updated>2014-10-04T18:12:55+08:00</updated>
-    <id>http://Jcdroid.github.io/blog/2014/10/04/hello-world</id>
-    <content type="html"><![CDATA[<p>&nbsp;</p>
-
-<p>经常在网上看到一些在<code>Github Pages</code>上搭建的Blog，其中有很多Blog非常的高大上，令人跃跃欲试，比如：<a href="http://imid.me/">imid</a>、<a href="http://onevcat.com/">onevcat</a> 等等。其实在今年5月份就准备搭建，但由于公司项目的缘故，一直拖到现在。趁着这国庆放假，就花一些时间把它弄好了。</p>
-
-<!-- more -->
-
-
-<h3>搭建步骤请参考</h3>
-
-<ul>
-<li><a href="http://jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-windows">使用Octopress在Github Pages搭建Blog（Windows版）</a></li>
-<li><a href="http://jcdroid.github.io/blog/2014/10/08/use-octopress-to-build-blog-for-mac">使用Octopress在Github Pages搭建Blog（Mac版）</a></li>
 </ul>
 
 ]]></content>
