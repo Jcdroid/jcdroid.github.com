@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Hello World"
-date: 2014-10-04 18:12
+date: 2014-10-04 18:12:55 +0800
 comments: true
 published: true
 categories: 其它
-
 ---
 &nbsp;
 
