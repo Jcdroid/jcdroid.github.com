@@ -11,8 +11,10 @@ categories: Octopress
 
 ###目录
 * [新窗口中打开超链接](#新窗口中打开超链接)
-* [添加Tag](#添加Tag)
+* [添加Categories](#添加Categories)
 * [添加继续阅读](#添加继续阅读)
+* [文章显示数量设定](#文章显示数量设定)
+* [参考](#参考)
 
 <!--more-->
 
@@ -35,7 +37,14 @@ categories: Octopress
 
 参考：`https://gist.github.com/azone/4523641`
 
-####<a id="添加Tag"></a>添加Tag
+####<a id="添加Categories"></a>添加Categories
 
 
-####<a id="继续阅读"></a>添加继续阅读
+####<a id="添加继续阅读"></a>添加继续阅读
+
+
+####<a id="文章显示数量设定"></a>文章显示数量设定
+
+
+####<a id="参考"></a>参考
+* [Octopress文章摘要显示和主页显示文章数量设定](http://blog.csdn.net/hankai1024/article/details/12850413)
