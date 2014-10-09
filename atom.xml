@@ -4,7 +4,7 @@
   <title><![CDATA[Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-09T10:00:27+08:00</updated>
+  <updated>2014-10-09T10:58:29+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -28,7 +28,7 @@
 
 <h4><a id="1"></a>新窗口中打开超链接</h4>
 
-<p>修改<em>_include\custom\head.html</em>如下即可</p>
+<p>修改<code>_include\custom\head.html</code>如下即可</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
