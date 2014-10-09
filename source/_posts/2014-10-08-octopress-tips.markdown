@@ -4,8 +4,11 @@ title: "Octopress Tips"
 date: 2014-10-08 23:30:28 +0800
 comments: true
 published: true
-categories: 
+categories: Octopress
+
 ---
+&nbsp;
+
 ###目录
 * [新窗口中打开超链接](#新窗口中打开超链接)
 * [添加Tag](#添加Tag)

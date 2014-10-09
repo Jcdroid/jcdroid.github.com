@@ -4,7 +4,8 @@ title: "Octopress Blog自定义样式"
 date: 2014-10-07 23:13:59 +0800
 comments: true
 published: true
-categories: 
+categories: Octopress
+
 ---
 ###目录###
 
@@ -13,6 +14,8 @@ categories:
 * [分享](#3)
 * [字体](#4)
 * [参考](#5)
+
+<!-- more-->
 
 ####<a id="1"></a>主题
 * [Greyshade](https://github.com/shashankmehta/greyshade)
