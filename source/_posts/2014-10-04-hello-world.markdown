@@ -2,6 +2,7 @@
 layout: post
 title: "Hello World"
 date: 2014-10-04 18:12:55 +0800
+categories: 杂谈
 comments: true
 published: true
 categories: 
