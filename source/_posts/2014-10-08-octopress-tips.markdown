@@ -11,7 +11,7 @@ categories:
 * [添加Tag](#2)
 
 ####<a id="1"></a>新窗口中打开超链接
-修改`_include\custom\head.html`如下即可
+修改*_include\custom\head.html*如下即可
 
 ```js
 <script type="text/javascript">
