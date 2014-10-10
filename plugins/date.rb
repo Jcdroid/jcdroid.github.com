@@ -56,7 +56,7 @@ module Jekyll
     # Returns <Hash>
     def to_liquid
       date_format = self.site.config['date_format']
-      self.data.merge({
+      self.data.deep_merge({
         "title"             => self.data['title'] || self.slug.split('-').select {|w| w.capitalize! || w }.join(' '),
         "url"               => self.url,
         "date"              => self.date,
