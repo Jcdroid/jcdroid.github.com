@@ -22,10 +22,10 @@ categories: Octopress
 修改`_include\custom\head.html`如下即可
 
 ```js
-><script type="text/javascript">
->	function addBlankTargetForLinks () {
-> 		$('a[href^="http"]').each(function(){
->			$(this).attr('target', '_blank');
+<script type="text/javascript">
+	function addBlankTargetForLinks () {
+  		$('a[href^="http"]').each(function(){
+			$(this).attr('target', '_blank');
 		});
 	}
  
