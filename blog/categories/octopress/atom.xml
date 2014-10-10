@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Jcdroid]]></title>
   <link href="http://Jcdroid.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://Jcdroid.github.io/"/>
-  <updated>2014-10-10T17:00:44+08:00</updated>
+  <updated>2014-10-10T17:11:02+08:00</updated>
   <id>http://Jcdroid.github.io/</id>
   <author>
     <name><![CDATA[Jcdroid]]></name>
@@ -38,18 +38,22 @@
 
 <p>修改<code>_include\custom\head.html</code>如下即可</p>
 
-<pre><code class="js">&gt;&lt;script type="text/javascript"&gt;
-&gt;   function addBlankTargetForLinks () {
-&gt;       $('a[href^="http"]').each(function(){
-&gt;           $(this).attr('target', '_blank');
+<p>&#8220;`js</p>
+
+<script type="text/javascript">
+    function addBlankTargetForLinks () {
+        $('a[href^="http"]').each(function(){
+            $(this).attr('target', '_blank');
         });
     }
-
+ 
     $(document).bind('DOMNodeInserted', function(event) {
         addBlankTargetForLinks();
     });
-&lt;/script&gt;
-</code></pre>
+</script>
+
+
+<p>&#8220;`</p>
 
 <p>参考：<code>https://gist.github.com/azone/4523641</code></p>
 
